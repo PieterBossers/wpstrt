@@ -1,0 +1,25 @@
+
+
+/* Convert pixels to em */
+@function pxtoem($px, $base: 16) {
+  @if not unitless($px) {
+    $px: strip-units($px);
+  }
+  @if not unitless($base) {
+    $base: strip-units($base);
+  }
+
+  @return ($px / $base) * 1em;
+}
+
+// convert em to px
+@function emtopx( $em, $base: 16) {
+  @if not unitless($em) {
+    $em: strip-units($em);
+  }
+  @if not unitless($base) {
+    $base: strip-units($base);
+  }
+
+  @return ($em * $base) + px;
+}

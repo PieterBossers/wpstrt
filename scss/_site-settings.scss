@@ -1,0 +1,49 @@
+// Theme Information
+//--------------------------------------------//
+$theme_name: "My Theme";
+$theme_uri: "#";
+$theme_description: "My WordPress Theme";
+$theme_version: "1.0";
+$theme_author: "my name";
+$theme_author_uri: "#";
+$theme_license: "GPL";
+$theme_tags: "responsive-layout, post-formats";
+
+@charset "UTF-8";
+
+// ----------------------
+// == Site settings
+// ----------------------
+
+// Fonts
+$f__main: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$f__alter: Georgia, serif;
+$f__size: 1.5em;
+$f__line-height: 1.6;
+
+// = Colors
+// -----------------------------
+
+// Color Pallet 
+$c__base: #FFFFFF;
+$c__dark: #00171F;
+$c__mid: #003459;
+$c__light: #007EA7;
+$c__accent: #00A8E8;
+
+// Font
+$c__font--base: $c__dark;
+$c__font--alter: $c__base:
+$c__font--highlight: $c__accent;
+$c__font--achor: $c__light;
+
+
+
+// = Grid
+// -----------------------------
+
+// Max width wrapper
+$xs-width: pxtoem(  544 - 2, 10 );
+$sm-width: pxtoem(  768 - 2, 10 );
+$md-width: pxtoem(  992 - 2, 10 );
+$lg-width: pxtoem( 1200 - 2, 10 );
