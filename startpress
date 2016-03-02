@@ -72,6 +72,7 @@ $plugins['imagesizes'] = "https://trello-attachments.s3.amazonaws.com/55b6326a7d
 $plugins['adminglogo'] = "https://trello-attachments.s3.amazonaws.com/55b6326a7df81eac91936471/565db26fa2a9dcb12f250176/1b9407cc145c45c4fa2b665837b4caad/add-logo-to-admin.zip";
 $plugins['mediafolder'] = "https://trello-attachments.s3.amazonaws.com/55b6326a7df81eac91936471/565db26fa2a9dcb12f250176/cf4202d6b45a769a88c1a61cf4390a8c/wp-media-folder.zip";
 $plugins['fieldspro'] = "https://trello-attachments.s3.amazonaws.com/55b6326a7df81eac91936471/565db26fa2a9dcb12f250176/3d0869ec480e1ea551b3e30016f64420/advanced-custom-fields-pro.zip";
+$plugins['easysmtp'] = "https://trello-attachments.s3.amazonaws.com/55b6326a7df81eac91936471/565db26fa2a9dcb12f250176/a6bece7f3c4da4aaefec1a3f03874882/easy-wp-smtp.zip";
 
 
 
