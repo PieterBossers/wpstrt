@@ -1,38 +1,35 @@
 /*!
 
-Theme Name: #{ $theme_name }
-Theme URI: #{ $theme_uri }
-Description: #{ $theme_description }
-Version: #{ $theme_version }
-Author: #{ $theme_author }
-Author URI: #{ $theme_author_uri }
-License: #{ $theme_license }
+Theme Name: My Theme
+Theme URI: #
+Description: My WordPress Theme
+Version: 1.0
+Author: Plan.net Belux
+Author URI: http://ww.serviceplan.be
+License: GPL
 License URI: License.txt
-Tags: #{ $theme_tags }
+Template: devdmbootstrap3
+Tags: responsive-layout, post-formats
 
 */
+
+
+@charset "UTF-8";
 
 // Compass 
 @import "compass";
 
+//Mixins
+@import "_mixins/mixins";
+
 // Site settings 
 @import "site-settings";
 
-// Bootstrap 
-@import "vendor/bootstrap-compass";
-@import "vendor/bootstrap";
-
-/* Override */
-//@import "vendor-override/bootsrap";
-
 // Base 
-@import "base";
+@import "_base/base";
 
 // Layouts 
-@import "layout";
+@import "_layout/layout";
 
 // Modules 
-@import "modules";
-
-//States
-@import "states";
+@import "_modules/modules";
