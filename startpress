@@ -35,6 +35,7 @@ $startfiles["wp-config.production.php"] = "https://raw.githubusercontent.com/bro
 $postfiles = [];
 $postfiles['wp-content/themes/'.$pcode."/style.css"] = "https://raw.githubusercontent.com/brownrl/wpstrt/master/style.css";
 $postfiles['wp-content/themes/'.$pcode."/header.php"] = "https://raw.githubusercontent.com/brownrl/wpstrt/master/header.php";
+$postfiles['wp-content/themes/'.$pcode."/functions.php"] = "https://raw.githubusercontent.com/brownrl/wpstrt/master/functions.php";
 $postfiles['wp-content/themes/'.$pcode."/config.rb"] = "https://raw.githubusercontent.com/brownrl/wpstrt/master/config.rb";
 $postfiles['wp-content/themes/'.$pcode.'/scss/_base/_base.scss'] = "https://raw.githubusercontent.com/brownrl/wpstrt/master/scss/_base/_base.scss";
 $postfiles['wp-content/themes/'.$pcode.'/scss/_layout/_footer.scss'] = "https://raw.githubusercontent.com/brownrl/wpstrt/master/scss/_layout/_footer.scss";
